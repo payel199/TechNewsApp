@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="350dp"
+    android:background="#00000000"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardView"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="26dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="right"
+                android:stateListAnimator="@null"
+                android:background="@drawable/ic_close_back"
+                android:id="@+id/close"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FF9800"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Connect With Us"/>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/mob_gobel"
+                android:layout_gravity="center"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:text="Don't Learn Alone!!"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#04B6A6"
+                android:textSize="18dp"
+                android:textStyle="italic"
+                android:padding="10dp"
+                android:text="connect to linkedin: https://www.linkedin.com/in/payel-paul-a271b41b3/"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#385912"
+                android:textSize="18dp"
+                android:textStyle="italic"
+                android:padding="10dp"
+                android:text="https://github.com/payel199"/>
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
